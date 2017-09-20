@@ -1,0 +1,55 @@
+<<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Places to visit in Georgia!</title>
+	<!-- <link rel="stylesheet" href=""> -->
+	<style type="text/css" media="screen">
+		#gallery-wrapper{
+			text-align: center;
+		}	
+		.thumb{
+			width: 15%;
+			border: 4px solid #0f0;
+		}
+		img{
+			width: 80%; 
+			/* <!-- if add !important, this wins, except if another one is screaming !important also. Then the more specific one wins --> */
+		}
+	</style>
+</head>
+<body>
+	<div id="gallery-wrapper">
+		<div id="top-section">
+			<!-- <h1>A photo gallery made with CSS, HTML, and a tiny bit of JS and a lot of love.</h1> -->
+		</div>
+		<!-- MIDDLE SECTION -->
+		<div id="middle-section">
+			<img class="thumb" src="./ga_pics/arabia_mnt.jpg" 
+				onclick="bigPic.src = this.src" 
+			/>
+			<img class="thumb" src="./ga_pics/callaway_gardens.jpg" 
+				onclick="bigPic.src = this.src" 
+			/>
+			<img class="thumb" src="./ga_pics/Etowah_Indian_mounds.jpg" 
+				onclick="bigPic.src = this.src" 
+			/>
+			<img class="thumb" src="./ga_pics/prov_state_canyon.jpg" 
+				onclick="bigPic.src = this.src" 
+			/>
+			<img class="thumb" src="./ga_pics/wormsloe.jpg" 
+				onclick="bigPic.src = this.src" 
+			/>
+
+			<!-- <h1>Middle Section</h1> -->
+		</div>
+		<!-- BOTTOM SECTION -->
+		<div id="bottom-section">
+			<img src="./ga_pics/arabia_mnt.jpg" name="bigPic"  />
+			<!-- <h1>Bottom Section</h1> -->
+		</div>
+	</div>
+	
+</body>
+</html>
